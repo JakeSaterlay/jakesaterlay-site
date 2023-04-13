@@ -1,0 +1,18 @@
+.profileImg {
+  border-radius: 50%;
+  margin-right: 2vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
